@@ -1,0 +1,238 @@
+  header {
+    padding: 20px 0;
+  }
+
+  header .row,
+  footer .row {
+  display: flex;
+  align-items: center;
+}
+
+  header h1 {
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header p {
+    padding: 0 20px;
+    margin: 0;
+    color: black;
+  }
+
+  hr {
+    width: 100%;
+    margin:15px 0 0;
+    color: gray
+  }
+  
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("plant.jpg");
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: 15px 0 100px;
+  }
+
+  .jumbotron h2 {
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    font-family: "Courier New", Courier, monospace
+  }
+
+  section .row {
+    margin: 50px 0 0;
+  }
+
+  .intro {
+    margin: 0 0 100px;
+  }
+  
+  section .about img {
+    margin: 30px 0 45px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    /* filter: grayscale(100%) */
+    /* object-position: 0% -30%; */
+  }
+
+  .bio {
+    text-align: justify;
+    margin: 0 0 250px;
+  }
+
+  section .projects img {
+    margin: 0 0 30px;
+    /* width: 100%; */
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .CitiBike .jumbotron {
+    display: flex;
+    align-items: stretch;
+    background-image: url("citibike.jpg");
+    background-size: contain;
+    color: #ffffff;
+    height: 300px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: 15px 0 0;
+  }
+
+  .mentalhealth .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("techmentalhealth.jpg");
+    background-size: contain;
+    color: #ffffff;
+    height: 300px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: 15px 0 0;
+  }
+
+  .Seismo .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("sketch.jpg");
+    background-size: contain;
+    color: #ffffff;
+    height: 300px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: 15px 0 0;
+  }
+
+  .UX .jumbotron {
+    display: flex;
+    align-items: contain;
+    background-image: url("finalprod.jpg");
+    object-fit: fill;
+    color: #ffffff;
+    height: 300px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: 15px 0 0;
+  }
+
+  .UX .jumbotron h2 {
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    font-family: "Courier New", Courier, monospace
+  }
+
+  .article img {
+    margin: 0;
+    width: 600px;
+    height: 400px;
+    object-fit: fill;
+  }
+  
+  .deliverables img {
+    margin: 0;
+    width: 800px;
+    height: 500px;
+    object-fit: fill;
+  }
+
+  .datamining .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("ottersea.jpg");
+    object-fit: fill;
+    color: #ffffff;
+    height: 300px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: 15px 0 0;
+  }
+
+  .pdf img {
+    margin: 0;
+    width: 500px;
+    height: 700px;
+    object-fit: fill;
+  }
+  /* section .row .figure {
+    margin: 50px 0 0;
+  } */
+  
+  /* .col-sm-6 {
+  }
+   */
+
+   .das42 .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("dash2.jpg");
+    object-fit: fill;
+    color: #ffffff;
+    height: 300px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: 15px 0 0;
+  }
+
+  .cusd .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("cusdcurrents.jpg");
+    color: #ffffff;
+    height: 300px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: 15px 0 0;
+  }
+
+  .website .jumbotron {
+    display: flex;
+    align-items: fill;
+    background-image: url("brick.jpg");
+    color: #ffffff;
+    height: 300px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: 15px 0 0;
+  }
+
+  .resume img {
+    margin: 0;
+    width: 1000px;
+    height: 100%;
+    object-fit: fill;
+    /* filter: grayscale(100%) */
+    /* object-position: 0% -30%; */
+  }
+
+  .contact .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("sunset.jpg");
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    margin: 15px 0 100px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 20px 0;
+  }
+  
+  footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer li img {
+    width: 32px;
+    height: 32px;
+  }
